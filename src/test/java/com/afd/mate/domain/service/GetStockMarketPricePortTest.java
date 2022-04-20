@@ -15,7 +15,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-@TestPropertySource(properties = "spring.mongodb.embedded.version=3.5.5")
 class GetStockMarketPricePortIntegrationTest {
 
     @Autowired

@@ -25,7 +25,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;
 
 @SpringBootTest
-@TestPropertySource(properties = "spring.mongodb.embedded.version=3.5.5")
 public class GetStockPositionAndMarketValueApiE2ETest {
 
     @Autowired private ApplicationContext context;

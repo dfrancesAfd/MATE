@@ -16,7 +16,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DataMongoTest
-@TestPropertySource(properties = "spring.mongodb.embedded.version=3.5.5")
 class StockPositionRepositoryIntegrationTest {
     @Autowired
     private StockPositionRepository repository;
